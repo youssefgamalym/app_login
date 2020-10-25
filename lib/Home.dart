@@ -30,6 +30,7 @@ class _homeState extends State<home> {
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
                   color: Colors.blueGrey),
+              // this line is new
             ),
             Container(
               child: Row(
