@@ -14,11 +14,11 @@ class _MyGoogleMapState extends State<MyGoogleMap> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: GoogleMap(
-        mapType: MapType.satellite,
-        markers: {UserHome,} ,
-        initialCameraPosition: CameraPosition(target: location, zoom: 15),
-      ),
-    );
+        // body: GoogleMap(
+        //   mapType: MapType.satellite,
+        //   markers: {UserHome,} ,
+        //   initialCameraPosition: CameraPosition(target: location, zoom: 15),
+        // ),
+        );
   }
 }
